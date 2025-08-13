@@ -949,7 +949,7 @@
       <a name="labelloc" val="north"/>
       <a name="radix" val="10unsigned"/>
     </comp>
-    <comp lib="0" loc="(910,4680)" name="Splitter">
+    <comp lib="0" loc="(910,4690)" name="Splitter">
       <a name="bit0" val="7"/>
       <a name="bit1" val="6"/>
       <a name="bit2" val="5"/>
@@ -2043,7 +2043,7 @@ f 1c 0 1c 3 0 0 1b
       <a name="labelfont" val="Consolas bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="5" loc="(910,4660)" name="DipSwitch">
+    <comp lib="5" loc="(910,4670)" name="DipSwitch">
       <a name="facing" val="south"/>
       <a name="label" val="K8"/>
       <a name="labelloc" val="north"/>
@@ -2568,6 +2568,7 @@ f 1c 0 1c 3 0 0 1b
     <comp loc="(840,4330)" name="increment"/>
     <comp loc="(840,4430)" name="increment"/>
     <comp loc="(840,4530)" name="increment"/>
+    <comp loc="(840,4610)" name="increment"/>
     <comp loc="(850,1060)" name="Equals"/>
     <comp loc="(850,1160)" name="Equals"/>
     <comp loc="(850,1260)" name="Equals"/>
@@ -5213,7 +5214,7 @@ f 1c 0 1c 3 0 0 1b
     <wire from="(820,4450)" to="(820,4470)"/>
     <wire from="(820,4470)" to="(830,4470)"/>
     <wire from="(820,4550)" to="(820,4570)"/>
-    <wire from="(820,4570)" to="(840,4570)"/>
+    <wire from="(820,4570)" to="(830,4570)"/>
     <wire from="(830,1090)" to="(830,1150)"/>
     <wire from="(830,1090)" to="(950,1090)"/>
     <wire from="(830,1190)" to="(830,1250)"/>
@@ -5282,6 +5283,8 @@ f 1c 0 1c 3 0 0 1b
     <wire from="(830,4370)" to="(840,4370)"/>
     <wire from="(830,4470)" to="(830,4530)"/>
     <wire from="(830,4470)" to="(840,4470)"/>
+    <wire from="(830,4570)" to="(830,4610)"/>
+    <wire from="(830,4570)" to="(840,4570)"/>
     <wire from="(840,1150)" to="(840,1190)"/>
     <wire from="(840,1190)" to="(950,1190)"/>
     <wire from="(840,1250)" to="(840,1290)"/>
@@ -5350,6 +5353,7 @@ f 1c 0 1c 3 0 0 1b
     <wire from="(840,4470)" to="(950,4470)"/>
     <wire from="(840,4530)" to="(840,4570)"/>
     <wire from="(840,4570)" to="(950,4570)"/>
+    <wire from="(840,4610)" to="(950,4610)"/>
     <wire from="(850,1060)" to="(860,1060)"/>
     <wire from="(850,1160)" to="(860,1160)"/>
     <wire from="(850,1260)" to="(860,1260)"/>
@@ -5422,7 +5426,7 @@ f 1c 0 1c 3 0 0 1b
     <wire from="(900,4100)" to="(900,4200)"/>
     <wire from="(900,4200)" to="(900,4380)"/>
     <wire from="(900,4380)" to="(900,4480)"/>
-    <wire from="(910,4680)" to="(950,4680)"/>
+    <wire from="(910,4690)" to="(980,4690)"/>
     <wire from="(930,1040)" to="(940,1040)"/>
     <wire from="(930,1140)" to="(940,1140)"/>
     <wire from="(930,1240)" to="(940,1240)"/>
@@ -5643,9 +5647,10 @@ f 1c 0 1c 3 0 0 1b
     <wire from="(950,4530)" to="(950,4570)"/>
     <wire from="(950,4530)" to="(980,4530)"/>
     <wire from="(950,4570)" to="(1000,4570)"/>
-    <wire from="(950,4640)" to="(950,4680)"/>
+    <wire from="(950,4610)" to="(950,4640)"/>
+    <wire from="(950,4640)" to="(950,4670)"/>
     <wire from="(950,4640)" to="(980,4640)"/>
-    <wire from="(950,4680)" to="(1000,4680)"/>
+    <wire from="(950,4670)" to="(1000,4670)"/>
     <wire from="(970,1000)" to="(1180,1000)"/>
     <wire from="(970,1000)" to="(970,1040)"/>
     <wire from="(970,1040)" to="(970,1140)"/>
@@ -5899,9 +5904,7 @@ f 1c 0 1c 3 0 0 1b
     <wire from="(990,4460)" to="(1000,4460)"/>
     <wire from="(990,4460)" to="(990,4560)"/>
     <wire from="(990,4560)" to="(1000,4560)"/>
-    <wire from="(990,4560)" to="(990,4670)"/>
-    <wire from="(990,4670)" to="(1000,4670)"/>
-    <wire from="(990,4670)" to="(990,6160)"/>
+    <wire from="(990,4560)" to="(990,6160)"/>
   </circuit>
   <circuit name="Stack">
     <a name="appearance" val="custom"/>
